@@ -9,16 +9,16 @@ let etapas = [
                 partido: 'Armas e livros',
                 fotos:[
                     {url:'Bolsonaro.jpg', legenda: 'Presidente'},
-                    {url:'Mourao.jpg', legenda: 'Vice-Presidente', small: true}
+                    {url:'Lula.jpeg', legenda: 'Presidente', small: true},
                 ]
             },
             {
                 numero: '666',
                 nome: 'Luiz Inácio Cachaceiro da Silva',
-                partido: 'Partido das Trevas',
+                partido: 'Partido das Trevas (PT)',
                 fotos:[
                     {url:'Lula.jpeg', legenda: 'Presidente'},
-                    {url:'Dilma.jpg', legenda: 'Vice-Presidente', small: true}
+                    {url:'Lula.jpeg', legenda: 'Presidente', small: true},
                 ]
             },
         ]
