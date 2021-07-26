@@ -126,14 +126,12 @@ body {
     align-items: flex-end;
 }
 .d-1-image {
-    margin-top: 10px;
     border: 1px solid #000;
     background-color: #FFF;
     text-align: center;
     font-size: 14px;
 }
 .d-1-image img {
-    margin-top: 10px;
     width: 100%;
 }
 .d-1-image.small {
@@ -151,4 +149,13 @@ body {
 .aviso--grande {
     font-size: 25px;
     color: red;
+}
+
+.aviso--gigante {
+    font-size: 70px;
+    font-weight: bold;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

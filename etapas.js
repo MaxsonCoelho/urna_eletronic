@@ -9,7 +9,7 @@ let etapas = [
                 partido: 'Armas e livros',
                 fotos:[
                     {url:'Bolsonaro.jpg', legenda: 'Presidente'},
-                    {url:'Lula.jpeg', legenda: 'Presidente', small: true},
+                    {url:'Bolsonaro.jpg', legenda: 'Vice-Presidente', small: true},
                 ]
             },
             {
@@ -18,7 +18,7 @@ let etapas = [
                 partido: 'Partido das Trevas (PT)',
                 fotos:[
                     {url:'Lula.jpeg', legenda: 'Presidente'},
-                    {url:'Lula.jpeg', legenda: 'Presidente', small: true},
+                    {url:'Lula.jpeg', legenda: 'Vice-Presidente', small: true},
                 ]
             },
         ]
@@ -32,8 +32,8 @@ let etapas = [
                 nome: 'Amazonino Mendes',
                 partido: 'Koreia do Norte',
                 fotos:[
-                    {url:'Amazonino.jpg', legenda: 'Governador'},
-                    {url:'Sereia do Bodozal.jpg', legenda: 'Vice-Governador', small: true}
+                    {url:'Amazonino-Mendes.jpg', legenda: 'Governador'},
+                    {url:'Amazonino-Mendes.jpg', legenda: 'Vice-Governador', small: true}
                 ]
             },
             {
@@ -41,8 +41,8 @@ let etapas = [
                 nome: 'Omar Azis',
                 partido: 'Circo',
                 fotos:[
-                    {url:'Omar.jpeg', legenda: 'Governador'},
-                    {url:'Ruivinha de Marte.jpg', legenda: 'Vice-Governador', small: true}
+                    {url:'Omar-Aziz.jpeg', legenda: 'Governador'},
+                    {url:'Omar-Aziz.jpeg', legenda: 'Vice-Governador', small: true}
                 ]
             },
         ]
