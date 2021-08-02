@@ -159,3 +159,10 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.contagem-votos {
+    margin-top: 600px;
+    font-size: 50px;
+    position: absolute;
+    text-align: center;
+}

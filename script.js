@@ -5,6 +5,7 @@ let descricao = document.querySelector('.d-1-4');
 let aviso = document.querySelector('.d-2');
 let lateral = document.querySelector('.d-1-right');
 let numeros = document.querySelector('.d-1-3');
+let maisVotos = document.querySelector('.mais-votos');
 
 let etapaAtual = 0;
 let numero = '';
@@ -118,13 +119,22 @@ function confirma() {
     }
 
     if(votoConfirmado) {
-        etapaAtual++;
-        if(etapas[etapaAtual] !== undefined) {
+        console.log(voto)
+        if(numero === '380') {
+            maisVotos.innerHTML =  `Bolsonaro ${voto.length} x Lula ${voto.length += 1}`;
             comecarEtapa();
-        } else {
-            document.querySelector('.tela').innerHTML = '<div class="aviso--gigante pisca">FIM</div>'
-            console.log(votos);
+        } else if(numero === '666') {
+            maisVotos.innerHTML = `Bolsonaro ${voto.length} x Lula ${voto.length += 2}`;
+            comecarEtapa();
         }
+        
+        // etapaAtual++;
+        // if(etapas[etapaAtual] !== undefined) {
+        //     comecarEtapa();
+        // } else {
+        //     document.querySelector('.tela').innerHTML = '<div class="aviso--gigante pisca">FIM</div>';
+        //     console.log(voto);
+        // }
     }
 }
 
